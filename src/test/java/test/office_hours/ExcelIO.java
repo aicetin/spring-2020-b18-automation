@@ -4,6 +4,7 @@ import org.apache.poi.ss.usermodel.*;
 import org.testng.annotations.Test;
 
 import java.io.FileInputStream;
+import java.util.Arrays;
 
 public class ExcelIO {
 
@@ -44,13 +45,19 @@ public class ExcelIO {
             }
             System.out.println("###################################################");
             //to print entire table
+
+            String[][] dataTable = new String[rowNumber][columnNumber];
+
             for (int rowIndex = 0; rowIndex < rowNumber; rowIndex++) {
                 for (int columnIndex = 0; columnIndex < columnNumber; columnIndex++) {
-                    System.out.print(sheet.getRow(rowIndex).getCell(columnIndex) + " ");
+                    String value = sheet.getRow(rowIndex).getCell(columnIndex).getStringCellValue();
+                    System.out.format("%15s", value);
+                    dataTable[rowIndex][columnIndex] = value;
                 }
                 System.out.println();
             }
 
+            System.out.println(Arrays.deepToString(dataTable));
 
         } catch (Exception e) {
             e.printStackTrace();
