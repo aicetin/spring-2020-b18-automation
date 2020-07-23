@@ -224,5 +224,5 @@ How do we actually select an option from DROPDOWN?
 
 
 
-public class TodaysNotes {
+public class day6_ClassNotes {
 }

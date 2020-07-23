@@ -232,5 +232,5 @@ How to search anything in the HTML inspection?
 
 
  */
-public class NotesFromToday {
+public class day2_ClassNotes {
 }

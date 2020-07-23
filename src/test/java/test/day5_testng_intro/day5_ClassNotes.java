@@ -515,5 +515,5 @@ ANNOTATIONS:
 
 
  */
-public class TodaysNotes {
+public class day5_ClassNotes {
 }

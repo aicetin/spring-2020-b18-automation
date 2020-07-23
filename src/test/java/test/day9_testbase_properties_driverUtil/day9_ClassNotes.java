@@ -300,5 +300,5 @@ Driver utility:
 
 
  */
-public class CLASNOTES {
+public class day9_ClassNotes {
 }

@@ -205,5 +205,5 @@ What we covered today?
 
 
  */
-public class TodaysNotes {
+public class day7_ClassNotes {
 }

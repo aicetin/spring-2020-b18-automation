@@ -1,6 +1,6 @@
 package test.day3_cssSelector_xpath;
 
-public class TodaysNotes {
+public class day3_ClassNotes {
 }
 
 /*

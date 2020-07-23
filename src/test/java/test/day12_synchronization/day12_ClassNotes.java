@@ -249,5 +249,5 @@ JUNIT : is unit testing framework/tool
 
 
  */
-public class CLASSNOTES {
+public class day12_ClassNotes {
 }

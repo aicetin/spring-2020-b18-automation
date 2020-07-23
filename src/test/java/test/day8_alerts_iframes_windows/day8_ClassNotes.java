@@ -148,5 +148,5 @@ ALERTS - IFRAMES - WINDOWS
 
 
  */
-public class CLASSNOTES {
+public class day8_ClassNotes {
 }

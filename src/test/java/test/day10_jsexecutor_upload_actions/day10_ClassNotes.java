@@ -99,5 +99,5 @@ ACTIONS
 
 
  */
-public class CLASSNOTES {
+public class day10_ClassNotes {
 }

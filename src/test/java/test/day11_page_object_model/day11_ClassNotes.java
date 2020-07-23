@@ -137,5 +137,5 @@ What are the advantages Page Object Model?
 
 
  */
-public class CLASSNOTES {
+public class day11_ClassNotes {
 }
