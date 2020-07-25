@@ -6,6 +6,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.Driver;
 
+import java.awt.*;
+
 public class Uploading {
 
     @Test
@@ -17,7 +19,7 @@ public class Uploading {
 
         Thread.sleep(3000);
 
-        chooseFile.sendKeys("/Users/cybertekchicago-1/Desktop/test");
+        chooseFile.sendKeys("C:\\Users\\Ibrahim\\Desktop\\test");
 
         WebElement fileUpload = Driver.getDriver().findElement(By.id("file-submit"));
         fileUpload.click();
