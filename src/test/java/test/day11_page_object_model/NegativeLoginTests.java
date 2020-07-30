@@ -35,7 +35,7 @@ public class NegativeLoginTests {
 
         Assert.assertTrue(errorMessage.isDisplayed(), "Assert message is NOT displayed");
 
-    }
+   }
 
     @Test
     public void negative_login_test_with_page_object(){
